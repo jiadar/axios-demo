@@ -1,4 +1,4 @@
-import _ from 'axios';
+// import _ from 'axios';
 
 function performGetRequest1() {
 
