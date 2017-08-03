@@ -67,8 +67,6 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-// import _ from 'axios';
-
 function performGetRequest1() {
 
   var resultElement = document.getElementById('getResult1');
