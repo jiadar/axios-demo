@@ -13,7 +13,8 @@
     "webpack": "^3.4.1"
   },
   "scripts": {
-    "build": "babel src -d lib"
+      "start": "webpack --config webpack.config.js",
+      "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
