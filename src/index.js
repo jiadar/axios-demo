@@ -6,7 +6,7 @@ function performGetRequest1() {
 
   resultElement.innerHTML = '';
   
-  axios.get('http://jsonstub.com/users',
+  axios.post('http://jsonstub.com/users',
             { headers: {
               "Content-Type": "application/json",
               "JsonStub-User-Key": "605f7a33-036b-4d09-af63-91e5f103ebaf",
