@@ -29,6 +29,6 @@ function performGetRequest1() {
 }
 
 
-performGetRequest1();
+
 
 
