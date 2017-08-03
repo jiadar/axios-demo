@@ -25,6 +25,7 @@ function performGetRequest1() {
     console.log('promise error');
            resultElement.innerHTML = generateErrorHTMLOutput(error);
          });   
+
 }
 
 
