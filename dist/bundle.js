@@ -948,7 +948,7 @@ function performGetRequest1() {
 
   resultElement.innerHTML = '';
   
-  __WEBPACK_IMPORTED_MODULE_0_axios___default.a.get('http://jsonstub.com/users',
+  __WEBPACK_IMPORTED_MODULE_0_axios___default.a.post('http://jsonstub.com/users',
             { headers: {
               "Content-Type": "application/json",
               "JsonStub-User-Key": "605f7a33-036b-4d09-af63-91e5f103ebaf",
