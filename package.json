@@ -14,8 +14,8 @@
     "webpack-dev-server": "^2.6.1"
   },
   "scripts": {
-    "start": "webpack --config webpack.config.js",
-    "watch": "webpack --watch"
+      "start": "webpack-dev-server --open",
+      "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
