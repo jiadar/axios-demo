@@ -1,5 +1,7 @@
 function performGetRequest1() {
+
   var resultElement = document.getElementById('getResult1');
+
   resultElement.innerHTML = '';
   
  axios.get('http://jsonstub.com/users',
@@ -15,3 +17,6 @@ function performGetRequest1() {
       resultElement.innerHTML = generateErrorHTMLOutput(error);
     });   
 }
+
+performGetRequest1();
+
