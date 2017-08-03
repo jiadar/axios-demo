@@ -956,7 +956,8 @@ function performGetRequest1() {
       "JsonStub-Project-Key": "6b96b772-8e99-402a-9108-7964013effab"},
     timeout: 20000,
     method: 'post',
-    responseType: 'json'
+    responseType: 'json',
+    data: []
   })
   .then(function (response) {
     resultElement.innerHTML = generateSuccessHTMLOutput(response);
