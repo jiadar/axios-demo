@@ -948,8 +948,7 @@ function performGetRequest1() {
 
   resultElement.innerHTML = '';
   
-  __WEBPACK_IMPORTED_MODULE_0_axios___default()({
-    url: "http://jsonstub.com/users",
+  __WEBPACK_IMPORTED_MODULE_0_axios___default()("http://jsonstub.com/users", {
     headers: {"JsonStub-User-Key" : "605f7a33-036b-4d09-af63-91e5f103ebaf", 
 	      "JsonStub-Project-Key" : "6b96b772-8e99-402a-9108-7964013effab"},
     timeout: 20000,
