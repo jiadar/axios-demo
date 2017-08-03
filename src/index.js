@@ -22,6 +22,7 @@ function performGetRequest1() {
     resultElement.innerHTML = generateSuccessHTMLOutput(response);
   })
   .catch(function (error) {
+    console.log('promise error');
            resultElement.innerHTML = generateErrorHTMLOutput(error);
          });   
 }
