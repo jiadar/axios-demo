@@ -960,6 +960,7 @@ function performGetRequest1() {
     data: []
   })
   .then(function (response) {
+    console.log('promise returned');
     resultElement.innerHTML = generateSuccessHTMLOutput(response);
   })
   .catch(function (error) {
