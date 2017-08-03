@@ -8,7 +8,7 @@ function performGetRequest1() {
   
   axios("http://jsonstub.com/users", {
     headers: {
-      "Content-Type: application/json",
+      "Content-Type": "application/json",
       "JsonStub-User-Key" : "605f7a33-036b-4d09-af63-91e5f103ebaf", 
       "JsonStub-Project-Key" : "6b96b772-8e99-402a-9108-7964013effab"},
     timeout: 20000,
